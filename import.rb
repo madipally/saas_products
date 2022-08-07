@@ -22,6 +22,14 @@ class ImportProducts
             puts "importing: Name: #{product['title']}; Categories: #{product['categories'].join(' &')}; Twitter: @#{product['twitter']}"
         end
     end
+
+    def parse_yaml
+        require 'yaml'
+        yaml_file = YAML.load_file(@path)
+        yaml_file.each do |product|
+            puts "importing: Name: #{product['name']}; Categories: #{product['tags']}; Twitter: @#{product['twitter']}"
+        end
+    end
 end
 
 ImportProducts.new(ARGV[0], ARGV[1]).import
