@@ -1,12 +1,6 @@
 # Objectives
-This technical test is designed to show:
-* Your skills with OOP, Ruby and its ecosystem.
-* Ability to structure code. Easy to understand and maintain.
-* Ability to write meaningful tests.
-* You good eye for clean coding practices.
 
-
-# The Challenge - SaaS Products Import
+SaaS Products Import
 We update our inventory of SaaS products from several sources.  Each source provides its content to us in a different format.  
 
 Write a command line script to import the products. 
@@ -33,15 +27,6 @@ Considerations:
   - What would you have done differently if you had had more time
   - Etc.
 * * * 
-
-## Code Submission
-
-- In a **private repository in Github**. This is the preferred option.
-- Others like GitLab or Bitbucket are also fine.
-
-Please, contact us to know who to invite to the repository.
-
-Having full commit history is optional but would be considered as a plus.
 
 
 
